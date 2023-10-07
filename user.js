@@ -244,6 +244,12 @@ user_pref("findbar.highlightAll", true);
 ****************************************************************************/
 // Enter your personal prefs below this line:
 
+// PREF: restore Firefox Sync
+user_pref("identity.fxaccounts.enabled", true);
+
+// PREF: allow websites to ask you for your location
+user_pref("permissions.default.geo", 0);
+
 /****************************************************************************
  * END: BETTERFOX                                                           *
 ****************************************************************************/
